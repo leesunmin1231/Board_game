@@ -12,7 +12,7 @@ public class Map {
         ReadMap();
     }
     public void ReadMap() throws IOException{
-        Scanner scanner = new Scanner(new File("data/another.map"));
+        Scanner scanner = new Scanner(new File("data/default.map"));
         while (scanner.hasNextLine()) {
             String str = scanner.nextLine();
             str = String.join("",str.split(" "));
